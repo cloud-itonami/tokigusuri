@@ -16,7 +16,7 @@
             [clojure.java.io :as io]
             [tokigusuri.methods.analyze :as analyze]))
 
-(def actor-dir (-> *file* io/file .getParentFile .getParentFile))
+(def actor-dir (-> *file* io/file .getParentFile .getParentFile .getParentFile .getParentFile))
 (def seed (io/file actor-dir "data" "seed-pharma-patent-graph.kotoba.edn"))
 
 (defn load-seed [] (analyze/load-file* seed))

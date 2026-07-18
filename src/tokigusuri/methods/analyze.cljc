@@ -295,7 +295,7 @@
      "CLI entry: analyze a seed EDN graph → out/patent-cliff-report.md (file I/O at the edge)."
      [& argv]
      (let [argv (vec argv)
-           here (-> *file* clojure.java.io/file .getParentFile .getParentFile)
+           here (-> *file* clojure.java.io/file .getParentFile .getParentFile .getParentFile .getParentFile)
            seed (if (and (seq argv) (not (str/starts-with? (first argv) "--")))
                   (clojure.java.io/file (first argv))
                   (clojure.java.io/file here "data" "seed-pharma-patent-graph.kotoba.edn"))

@@ -7,7 +7,7 @@
             [tokigusuri.methods.datom-emit :as de]))
 
 (def seed
-  (str (-> *file* clojure.java.io/file .getParentFile .getParentFile)
+  (str (-> *file* clojure.java.io/file .getParentFile .getParentFile .getParentFile .getParentFile)
        "/data/seed-pharma-patent-graph.kotoba.edn"))
 
 (defn- load-seed [] (analyze/load-file* seed))
