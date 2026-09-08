@@ -23,7 +23,7 @@
   appends to a local file. G1: the ledger is a RELEASE map (patent cliff = a clock),
   NEVER a patent-busting / FTO-opinion / infringement-determination / per-company-verdict /
   pharma-equity-signal; G2: a medicine is never a 取-holder source (only barriers impose)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [clojure.java.io :as io])))
 
 (defn add [entity attr value] [":db/add" entity attr value])

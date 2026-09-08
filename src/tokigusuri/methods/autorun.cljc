@@ -14,7 +14,7 @@
   resume-safe. IDEMPOTENT-BY-CONTENT: a beat whose ground datoms equal the previous beat's is a
   NO-OP. No-server-key: appends to a local file only, no network I/O. G1: a RELEASE map, never a
   patent-busting / per-company verdict; G2: a medicine is never a 取-holder source."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tokigusuri.methods.analyze :as analyze]
             [tokigusuri.methods.datom-emit :as de]
             [tokigusuri.methods.kotoba :as k]

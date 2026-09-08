@@ -1,7 +1,7 @@
 (ns tokigusuri.tests.test-coverage
   "tokigusuri 時薬 — coverage-report tests (ADR-2606171300). Sibling of hokorobi tests/test_coverage."
   (:require [clojure.test :refer [deftest is run-tests]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.set]
             [clojure.java.io :as io]
             [tokigusuri.methods.analyze :as analyze]
