@@ -23,7 +23,7 @@
 
   House style: Python ':…' keyword strings stay strings (incl. all :organism/* / :en/* attrs);
   pure fns; file I/O only at edges via clojure.java.io. Portable .cljc."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 ;; ── minimal EDN reader (subset: vectors [], maps {}, :keyword, "string", num, bool, nil)
 ;; Keywords are kept as ":ns/name" strings (NOT clojure keywords) so the whole pipeline stays

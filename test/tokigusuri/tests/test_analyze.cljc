@@ -11,7 +11,7 @@
     - exclusivity-barrier 取-holder concentration is non-empty and every holder is a :barrier or
       :holder node, with at least one pure :barrier source present"
   (:require [clojure.test :refer [deftest is testing run-tests]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.set]
             [clojure.java.io :as io]
             [tokigusuri.methods.analyze :as analyze]))

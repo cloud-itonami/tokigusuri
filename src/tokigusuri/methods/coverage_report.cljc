@@ -7,7 +7,7 @@
   buckets. Coverage of all marketed drugs is ~0 by design (a bounded :representative seed).
 
   Pure fns; reuses tokigusuri.methods.analyze for the loader. Portable .cljc."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tokigusuri.methods.analyze :as analyze]))
 
 ;; honest external denominators for the drug count

@@ -2,7 +2,7 @@
   "tokigusuri 時薬 — Datom-emit tests (ADR-2606171300). Sibling of hokorobi
   methods/test_datom_emit — ground/transient flagging + determinism."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [tokigusuri.methods.analyze :as analyze]
             [tokigusuri.methods.datom-emit :as de]))
 

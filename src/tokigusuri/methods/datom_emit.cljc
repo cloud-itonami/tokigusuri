@@ -12,7 +12,7 @@
 
   House style: Python ':…' keyword strings stay literal strings; float _fmt mirrors Python's
   f-string `{v:g}`; pure fns, file I/O only at the #?(:clj) edge."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [tokigusuri.methods.analyze :as analyze]))
 
 ;; ── attribute emit order (NODE_ATTRS / EDGE_ATTRS) ─────────────────────────────────────────
