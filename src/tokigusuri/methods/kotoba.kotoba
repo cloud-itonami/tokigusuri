@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tokigusuri 時薬 — pharma access-barrier graph DATOM-LOG writer (content-addressed commit-DAG).
 (ns tokigusuri.methods.kotoba
   "kotoba.cljc — tokigusuri 時薬 append-only ACCESS-BARRIER LEDGER writer
