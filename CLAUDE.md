@@ -87,9 +87,9 @@ cd 20-actors/tokigusuri
 bash run_tests.sh        # 8 green (edge-primary integral identity, top-is-essential sanity,
                          #          source-is-holder, transient-flagging, determinism, cliff-both-ends)
 # CLI cells run from repo root via bb (the -main reads *file*; the fleet runner sets it):
-#   bb 20-actors/tokigusuri/methods/analyze.cljc        → out/patent-cliff-report.md
-#   bb 20-actors/tokigusuri/methods/datom_emit.cljc     → out/patent-cliff-datoms.kotoba.edn
-#   bb 20-actors/tokigusuri/methods/coverage_report.cljc → out/coverage-report.md
+#   kbb 20-actors/tokigusuri/methods/analyze.cljk        → out/patent-cliff-report.md
+#   kbb 20-actors/tokigusuri/methods/datom_emit.cljk     → out/patent-cliff-datoms.kotoba.edn
+#   kbb 20-actors/tokigusuri/methods/coverage_report.cljk → out/coverage-report.md
 ```
 
 ## Cross-links

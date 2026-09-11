@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tokigusuri 時薬 — autonomous heartbeat: load the pharma-barrier graph → append GROUND datoms.
 (ns tokigusuri.methods.autorun
   "autorun.cljc — tokigusuri 時薬 deterministic heartbeat (ADR-2606171300, inochi/asobi pattern).

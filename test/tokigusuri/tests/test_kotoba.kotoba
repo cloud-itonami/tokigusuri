@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; tokigusuri 時薬 — access-barrier-ledger persistence + heartbeat tests.
-;; Run:  bb --classpath 20-actors 20-actors/tokigusuri/tests/test_kotoba.cljc
+;; Run:  kbb --classpath 20-actors 20-actors/tokigusuri/tests/test_kotoba.cljc
 (ns tokigusuri.tests.test-kotoba
   (:require [tokigusuri.methods.kotoba :as k]
             [tokigusuri.methods.autorun :as auto]
