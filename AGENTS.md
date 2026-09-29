@@ -59,7 +59,7 @@ about to — had no observatory. tokigusuri is that map; its candidates flow to 
 
 ```
 20-actors/tokigusuri/
-├── CLAUDE.md                                  # this file
+├── AGENTS.md                                  # this file
 ├── manifest.jsonld                            # actor manifest (3 cells, 8 gates)
 ├── data/
 │   └── seed-pharma-patent-graph.kotoba.edn    # real PUBLIC drugs (WHO EML / MPP / biosimilar cliff) + exclusivity 縁
